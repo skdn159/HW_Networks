@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChattingClient", "ChattingClient\ChattingClient.vcxproj", "{821AFCF0-2CF4-4500-93B1-E6DDF258688E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOCPServer", "IOCPServer\IOCPServer.vcxproj", "{88CAA669-AD83-4356-991C-36A731C0D14F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebServer", "WebServer\WebServer.vcxproj", "{08AF24FF-7C98-472C-95E3-081DAA802E42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chatting", "Chatting", "{44CC6E05-7371-481F-AA28-7E79979FAAF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web_Server", "Web_Server", "{13EB911A-08B8-45EF-B40A-7733CBEC0A81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{821AFCF0-2CF4-4500-93B1-E6DDF258688E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{821AFCF0-2CF4-4500-93B1-E6DDF258688E}.Debug|Win32.Build.0 = Debug|Win32
+		{821AFCF0-2CF4-4500-93B1-E6DDF258688E}.Release|Win32.ActiveCfg = Release|Win32
+		{821AFCF0-2CF4-4500-93B1-E6DDF258688E}.Release|Win32.Build.0 = Release|Win32
+		{88CAA669-AD83-4356-991C-36A731C0D14F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88CAA669-AD83-4356-991C-36A731C0D14F}.Debug|Win32.Build.0 = Debug|Win32
+		{88CAA669-AD83-4356-991C-36A731C0D14F}.Release|Win32.ActiveCfg = Release|Win32
+		{88CAA669-AD83-4356-991C-36A731C0D14F}.Release|Win32.Build.0 = Release|Win32
+		{08AF24FF-7C98-472C-95E3-081DAA802E42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{08AF24FF-7C98-472C-95E3-081DAA802E42}.Debug|Win32.Build.0 = Debug|Win32
+		{08AF24FF-7C98-472C-95E3-081DAA802E42}.Release|Win32.ActiveCfg = Release|Win32
+		{08AF24FF-7C98-472C-95E3-081DAA802E42}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{821AFCF0-2CF4-4500-93B1-E6DDF258688E} = {44CC6E05-7371-481F-AA28-7E79979FAAF4}
+		{88CAA669-AD83-4356-991C-36A731C0D14F} = {44CC6E05-7371-481F-AA28-7E79979FAAF4}
+		{08AF24FF-7C98-472C-95E3-081DAA802E42} = {13EB911A-08B8-45EF-B40A-7733CBEC0A81}
+	EndGlobalSection
+EndGlobal
